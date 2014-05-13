@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DF7603829D33EDA6C9300CD /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF76B673187E621F90125C6 /* CoreMotion.framework */; };
+		1DF76231C34C287DE67318B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF7688113F637565BC9BD7E /* AVFoundation.framework */; };
+		1DF763A5729F6F7E40B6775A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF76A360C8FE96EB8505A26 /* MainViewController.m */; };
+		1DF765C4A869B1ED6CC6FD48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF76C98F2AD3483FA007A51 /* Images.xcassets */; };
+		1DF7677D79CACA0D9D856535 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF765BDD324C8F678676625 /* CoreGraphics.framework */; };
+		1DF767E63BD0C030A85174F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF76CD19CF6C98B974DBBCF /* UIKit.framework */; };
+		1DF76A800AFE52FBE469A209 /* scream2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DF76F86B7818D688828E3DC /* scream2.mp3 */; };
+		1DF76B33683740B13D2DE024 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DF761F9BEC357611ABECDED /* MainViewController.xib */; };
+		1DF76C5E685CBC8B27AC4F86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF76BEA09CA22F11D93F782 /* Foundation.framework */; };
+		1DF76CB5611535953EE547D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF76BEA09CA22F11D93F782 /* Foundation.framework */; };
+		1DF76D17C4646D3836EB6FBC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF76FDB6B80F858A91F0EDA /* XCTest.framework */; };
+		1DF76D29243C8DBD750C9BB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF76CD19CF6C98B974DBBCF /* UIKit.framework */; };
+		1DF76D468B0D95B076196869 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DF76F830937F389A80C7108 /* InfoPlist.strings */; };
+		1DF76F4D78CA7A2FB679CECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF76D20789BE17C0E665627 /* main.m */; };
+		1DF76F5F876F8CE0E5A20C69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF761DCDB62724653583837 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DF766EEEEADA0AD250E8A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DF7633A868E909EC1F43136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DF761D374E31C68099618E3;
+			remoteInfo = Screamer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DF760C3B95918278F4265C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DF7613EF57C730C04FD9DAB /* Screamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF761DCDB62724653583837 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DF761F9BEC357611ABECDED /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		1DF7651A1F3EE4F4D99C1947 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DF765BDD324C8F678676625 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1DF76839A5855FEDF39AD19E /* Screamer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "Screamer-Info.plist"; sourceTree = "<group>"; };
+		1DF7688113F637565BC9BD7E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1DF76A360C8FE96EB8505A26 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1DF76B673187E621F90125C6 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1DF76BB12D0827AC9D30FCA7 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1DF76BEA09CA22F11D93F782 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DF76C98F2AD3483FA007A51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1DF76CD19CF6C98B974DBBCF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1DF76D20789BE17C0E665627 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DF76DF5B6F8C182A0B0F752 /* Screamer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Screamer-Prefix.pch"; sourceTree = "<group>"; };
+		1DF76F86B7818D688828E3DC /* scream2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scream2.mp3; sourceTree = "<group>"; };
+		1DF76FDB6B80F858A91F0EDA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DF7677FB5FCD2742E043015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF76D17C4646D3836EB6FBC /* XCTest.framework in Frameworks */,
+				1DF76CB5611535953EE547D0 /* Foundation.framework in Frameworks */,
+				1DF767E63BD0C030A85174F9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF76E741A11EBE977FD46D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF76C5E685CBC8B27AC4F86 /* Foundation.framework in Frameworks */,
+				1DF7677D79CACA0D9D856535 /* CoreGraphics.framework in Frameworks */,
+				1DF76D29243C8DBD750C9BB8 /* UIKit.framework in Frameworks */,
+				1DF7603829D33EDA6C9300CD /* CoreMotion.framework in Frameworks */,
+				1DF76231C34C287DE67318B0 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DF7634579C7F07745E3B8E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DF76839A5855FEDF39AD19E /* Screamer-Info.plist */,
+				1DF76F830937F389A80C7108 /* InfoPlist.strings */,
+				1DF76D20789BE17C0E665627 /* main.m */,
+				1DF76DF5B6F8C182A0B0F752 /* Screamer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DF7664422B42D3CFE276E90 = {
+			isa = PBXGroup;
+			children = (
+				1DF76EA5E4021B04FB86EE12 /* Products */,
+				1DF76A825AC1668FEC40A653 /* Frameworks */,
+				1DF76765537DB6E41935AE08 /* Screamer */,
+			);
+			sourceTree = "<group>";
+		};
+		1DF76765537DB6E41935AE08 /* Screamer */ = {
+			isa = PBXGroup;
+			children = (
+				1DF7634579C7F07745E3B8E8 /* Supporting Files */,
+				1DF760C3B95918278F4265C7 /* AppDelegate.h */,
+				1DF761DCDB62724653583837 /* AppDelegate.m */,
+				1DF76C98F2AD3483FA007A51 /* Images.xcassets */,
+				1DF76BB12D0827AC9D30FCA7 /* MainViewController.h */,
+				1DF76A360C8FE96EB8505A26 /* MainViewController.m */,
+				1DF761F9BEC357611ABECDED /* MainViewController.xib */,
+				1DF76F86B7818D688828E3DC /* scream2.mp3 */,
+			);
+			path = Screamer;
+			sourceTree = "<group>";
+		};
+		1DF76A825AC1668FEC40A653 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF76BEA09CA22F11D93F782 /* Foundation.framework */,
+				1DF765BDD324C8F678676625 /* CoreGraphics.framework */,
+				1DF76CD19CF6C98B974DBBCF /* UIKit.framework */,
+				1DF76FDB6B80F858A91F0EDA /* XCTest.framework */,
+				1DF76B673187E621F90125C6 /* CoreMotion.framework */,
+				1DF7688113F637565BC9BD7E /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DF76EA5E4021B04FB86EE12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DF7613EF57C730C04FD9DAB /* Screamer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DF761D374E31C68099618E3 /* Screamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF768F4567F97B94B284C8F /* Build configuration list for PBXNativeTarget "Screamer" */;
+			buildPhases = (
+				1DF760B4FE61F21A95D14A73 /* Sources */,
+				1DF76E741A11EBE977FD46D6 /* Frameworks */,
+				1DF769B82EF5B840BECF2EF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Screamer;
+			productName = Screamer;
+			productReference = 1DF7613EF57C730C04FD9DAB /* Screamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DF761E9329FFEBBF8EF1288 /* ScreamerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF76FA1E0E5E70B7875B687 /* Build configuration list for PBXNativeTarget "ScreamerTests" */;
+			buildPhases = (
+				1DF76231274E079A541CEC09 /* Sources */,
+				1DF7677FB5FCD2742E043015 /* Frameworks */,
+				1DF76630DE563841D71472EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DF76C8569904D1E686D3D18 /* PBXTargetDependency */,
+			);
+			name = ScreamerTests;
+			productName = ScreamerTests;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DF7633A868E909EC1F43136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Patrick Lackemacher";
+			};
+			buildConfigurationList = 1DF76AE7A07A0C56D2806D24 /* Build configuration list for PBXProject "Screamer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1DF7664422B42D3CFE276E90;
+			productRefGroup = 1DF76EA5E4021B04FB86EE12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DF761D374E31C68099618E3 /* Screamer */,
+				1DF761E9329FFEBBF8EF1288 /* ScreamerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DF76630DE563841D71472EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF769B82EF5B840BECF2EF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF76D468B0D95B076196869 /* InfoPlist.strings in Resources */,
+				1DF765C4A869B1ED6CC6FD48 /* Images.xcassets in Resources */,
+				1DF76B33683740B13D2DE024 /* MainViewController.xib in Resources */,
+				1DF76A800AFE52FBE469A209 /* scream2.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DF760B4FE61F21A95D14A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF76F4D78CA7A2FB679CECF /* main.m in Sources */,
+				1DF76F5F876F8CE0E5A20C69 /* AppDelegate.m in Sources */,
+				1DF763A5729F6F7E40B6775A /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF76231274E079A541CEC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DF76C8569904D1E686D3D18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DF761D374E31C68099618E3 /* Screamer */;
+			targetProxy = 1DF766EEEEADA0AD250E8A94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DF76F830937F389A80C7108 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DF7651A1F3EE4F4D99C1947 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DF7642103AF334A99B00C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Screamer/Screamer-Prefix.pch";
+				INFOPLIST_FILE = "Screamer/Screamer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1DF7689AA452688DE7482572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Screamer/Screamer-Prefix.pch";
+				INFOPLIST_FILE = "ScreamerTests/ScreamerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1DF76AAA484CF938EB54D8E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Screamer/Screamer-Prefix.pch";
+				INFOPLIST_FILE = "ScreamerTests/ScreamerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		1DF76BF72EAAD8FFB7D6209D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Screamer/Screamer-Prefix.pch";
+				INFOPLIST_FILE = "Screamer/Screamer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1DF76F3A27658A8881BA6EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DF76F472FD7FD24CD77763B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DF768F4567F97B94B284C8F /* Build configuration list for PBXNativeTarget "Screamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF76BF72EAAD8FFB7D6209D /* Release */,
+				1DF7642103AF334A99B00C9C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DF76AE7A07A0C56D2806D24 /* Build configuration list for PBXProject "Screamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF76F3A27658A8881BA6EE8 /* Release */,
+				1DF76F472FD7FD24CD77763B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DF76FA1E0E5E70B7875B687 /* Build configuration list for PBXNativeTarget "ScreamerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF76AAA484CF938EB54D8E8 /* Release */,
+				1DF7689AA452688DE7482572 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DF7633A868E909EC1F43136 /* Project object */;
+}
